@@ -40,6 +40,12 @@ This organisation publishes selected reference kits and technical patterns that
 are safe to share publicly. Client repositories, credentials, operational data,
 and customer-specific modules stay private.
 
+### Open technical references
+
+- [**Odoo Technical Audit Kit**](https://github.com/beavers-solutions/odoo-technical-audit-kit)
+  — an evidence-first framework for recovery, reliability, security, and
+  delivery decisions.
+
 ### Work with us
 
 - [Explore Odoo technical services](https://beavers.solutions/services)
