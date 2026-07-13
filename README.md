@@ -1,59 +1,52 @@
 # Beavers Solutions
 
-## Technical Odoo delivery for systems that already run the business
+## When Odoo has to keep working
 
-We help Odoo partners and Odoo-owning teams take control of the technical work
-behind production: recovery, performance, integrations, releases, custom
-modules, and day-to-day operational ownership.
+Most people contact us when there is already a real decision to make: a release
+feels risky, an integration is losing records, a contractor is leaving, backups
+have never been restored, or a partner needs an engineering answer before
+promising a client scope.
 
-**The client relationship stays with the partner.** We provide the engineering
-backoffice when a project needs capability that is too specialised or irregular
-to hire for permanently.
+We work with Odoo owners and implementation partners on the technical side of
+that decision. Partners keep the client relationship; we can work behind their
+delivery team when specialist engineering is needed.
 
-### What we help with
+## Situations we help with
 
-- **Technical audits and triage** — an evidence-based view of risk, ownership,
-  and the next safe decision.
-- **Backup and recovery** — verify that database, filestore, retention, and
-  restore paths actually work.
-- **Security, performance, and reliability** — practical work across Odoo,
-  PostgreSQL, workers, cron jobs, infrastructure, access, and releases.
-- **Integrations and technical delivery** — data flows, custom modules,
-  migrations, upgrades, automation, and production fixes.
-- **Partner technical backoffice** — white-label or behind-the-scenes
-  engineering support for implementation partners.
-- **Customer-owned Odoo hosting** — operational ownership for Odoo.sh exit or
-  self-managed deployments, without platform lock-in.
+- **Before an upgrade or release:** find out what can break and what needs to
+  be checked first.
+- **When recovery is uncertain:** test whether the database and filestore can
+  be brought back together.
+- **When Odoo is slow or unreliable:** trace the problem across Odoo,
+  PostgreSQL, workers, cron jobs, infrastructure, and integrations.
+- **When systems do not agree:** make integrations safe to retry, reconcile,
+  and support.
+- **When technical ownership is unclear:** define who owns access, backups,
+  releases, and the next operational decision.
 
-### How an engagement starts
+## How we start
 
-1. **Bring the case.** A client project, a failing integration, a risky
-   release, or a system whose operational ownership is unclear.
-2. **Set boundaries.** We agree on evidence, access, and the production rules
-   before touching the system.
-3. **Return a usable decision.** You get findings, recommended actions,
-   delivery scope, and the right level of technical ownership.
+1. You bring the situation as it is. A client project, a failing data flow, a
+   risky change, or a system nobody fully owns.
+2. We agree what can be checked, who can approve work, and how production is
+   protected.
+3. You get a clear next step: a decision, a recovery drill, a delivery scope,
+   or a practical plan for running the system.
 
-### Public proof, not client code
+## Public work
 
-This organisation publishes selected reference kits and technical patterns that
-are safe to share publicly. Client repositories, credentials, operational data,
-and customer-specific modules stay private.
+The repositories below show how we think and work. They contain no client code,
+credentials, production data, or customer architecture.
 
-### Open technical references
+- [**Can you bring Odoo back when something breaks?**](https://github.com/beavers-solutions/odoo-technical-audit-kit)
+  — a way to turn uncertain recovery and release risk into an answer and a next step.
+- [**Who owns Odoo when it stops working?**](https://github.com/beavers-solutions/odoo-operations-blueprint)
+  — a practical operating agreement for customer-owned Odoo.
+- [**What happens when an Odoo order is sent twice — or not at all?**](https://github.com/beavers-solutions/odoo-integration-delivery-kit)
+  — patterns for integrations that can be retried, checked, and supported.
 
-- [**Odoo Technical Audit Kit**](https://github.com/beavers-solutions/odoo-technical-audit-kit)
-  — an evidence-first framework for recovery, reliability, security, and
-  delivery decisions.
-- [**Odoo Operations Blueprint**](https://github.com/beavers-solutions/odoo-operations-blueprint)
-  — a reference operating model for customer-owned Odoo, recovery, releases,
-  security, and production ownership.
-- [**Odoo Integration Delivery Kit**](https://github.com/beavers-solutions/odoo-integration-delivery-kit)
-  — production patterns for contracts, idempotency, retries, reconciliation,
-  and partner-led integration delivery.
+## Talk to us
 
-### Work with us
-
-- [Explore Odoo technical services](https://beavers.solutions/services)
-- [Discuss an Odoo case](https://beavers.solutions/services#contact)
+- [See Odoo technical services](https://beavers.solutions/services)
+- [Describe the situation](https://beavers.solutions/services#contact)
 - [Customer-owned Odoo hosting](https://beavers.solutions/odoo-hosting)
