@@ -45,6 +45,12 @@ and customer-specific modules stay private.
 - [**Odoo Technical Audit Kit**](https://github.com/beavers-solutions/odoo-technical-audit-kit)
   — an evidence-first framework for recovery, reliability, security, and
   delivery decisions.
+- [**Odoo Operations Blueprint**](https://github.com/beavers-solutions/odoo-operations-blueprint)
+  — a reference operating model for customer-owned Odoo, recovery, releases,
+  security, and production ownership.
+- [**Odoo Integration Delivery Kit**](https://github.com/beavers-solutions/odoo-integration-delivery-kit)
+  — production patterns for contracts, idempotency, retries, reconciliation,
+  and partner-led integration delivery.
 
 ### Work with us
 
