@@ -1,6 +1,6 @@
 # Beavers Solutions
 
-## When Odoo has to keep working
+## Odoo Technical Services
 
 Most people contact us when there is already a real decision to make: a release
 feels risky, an integration is losing records, a contractor is leaving, backups
@@ -23,6 +23,31 @@ delivery team when specialist engineering is needed.
   and support.
 - **When technical ownership is unclear:** define who owns access, backups,
   releases, and the next operational decision.
+- **When AI needs Odoo data:** keep sensitive business data under control while
+  adding useful automation to an existing workflow.
+
+## Private AI that works with Odoo data
+
+Sometimes a business wants AI help inside Odoo, but cannot send whole records,
+customer history, or documents to a public model without a clear data boundary.
+We can build a private or hybrid inference path for that case.
+
+Odoo stays the system of record. The AI service receives only the fields allowed
+for the job, returns a classification, summary, or draft, and a person reviews
+customer-sensitive actions before Odoo is updated.
+
+That can mean, for example:
+
+- drafting a Helpdesk reply without exposing the full customer record;
+- sorting or summarising incoming work while keeping a review step;
+- routing a task to an approved external model or a private runtime, depending
+  on the data and the policy;
+- keeping a useful trail of what ran, which route was used, and whether a human
+  approved the result.
+
+This is not a generic chatbot bolted onto an ERP. It is a controlled connection
+between Odoo and the model runtime, designed around the business workflow and
+the data that is allowed to leave it.
 
 ## How we start
 
